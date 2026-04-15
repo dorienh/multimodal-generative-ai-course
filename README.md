@@ -1,7 +1,8 @@
 # Multimodal Generative AI
 
-**Graduate Course (Master's / PhD level)**
-**Instructor:** Dorien Herremans
+**Graduate Course (Master's / PhD level) at SUTD**
+
+**Instructor:** Assoc. Prof Dorien Herremans
 
 This repository contains course materials for a graduate-level course on multimodal generative AI. The course covers foundational vision and audio models, multimodal alignment, retrieval-augmented generation, and agentic AI systems — combining lectures, hands-on labs, and seminar paper discussions.
 
