@@ -12,10 +12,10 @@ This repository contains course materials for a graduate-level course on multimo
 
 | # | Topic | Slides | Notebook | Papers |
 |---|-------|--------|----------|--------|
-| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/slides.pdf) | [Colab](01-foundational-vision/lab.ipynb) | — |
-| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/slides.pdf) | [Colab](02-foundational-audio/lab.ipynb) | — |
+| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/slides.pdf) | [Notebook](01-foundational-vision/lab.ipynb) | — |
+| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/slides.pdf) | [Notebook](02-foundational-audio/lab.ipynb) | — |
 | 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](03-multimodal-alignment/slides.pdf) | — | [5 papers](#topic-3-reading-list) |
-| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/slides.pdf) | [Colab](04-retrieval-augmented-generation/lab.ipynb) | [5 papers](#topic-4-reading-list) |
+| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/slides.pdf) | [Notebook](04-retrieval-augmented-generation/lab.ipynb) | [5 papers](#topic-4-reading-list) |
 | 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [Notebook](05-agentic-ai/lab.ipynb) | — |
 
 ---
