@@ -12,11 +12,11 @@ This repository contains course materials for a graduate-level course on multimo
 
 | # | Topic | Slides | Notebook | Papers |
 |---|-------|--------|----------|--------|
-| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/slides.pdf) | [Notebook](01-foundational-vision/lab.ipynb) | — |
-| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/slides.pdf) | [Notebook](02-foundational-audio/lab.ipynb) | — |
+| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/slides.pdf) | [Notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb) | — |
+| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/slides.pdf) | [Notebook](02-foundational-audio/Lab_foundational_audio.ipynb) | — |
 | 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](03-multimodal-alignment/slides.pdf) | — | [5 papers](#topic-3-reading-list) |
-| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/slides.pdf) | [Notebook](04-retrieval-augmented-generation/lab.ipynb) | [5 papers](#topic-4-reading-list) |
-| 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [Notebook](05-agentic-ai/lab.ipynb) | — |
+| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/slides.pdf) | [Notebook](04-retrieval-augmented-generation/lab_RAG.ipynb) | [5 papers](#topic-4-reading-list) |
+| 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [Notebook](05-agentic-ai/lab_agentic_AI_MCP_LangGraph.ipynb) | — |
 
 ---
 
@@ -32,7 +32,7 @@ From convolutional networks to modern vision transformers and generative models.
 - Generative models for vision: DALL·E, Stable Diffusion
 - Diffusion models: core concepts and training
 
-**Materials:** [Slides](01-foundational-vision/slides.pdf) · [Lab notebook](01-foundational-vision/lab.ipynb)
+**Materials:** [Slides](01-foundational-vision/slides.pdf) · [Lab notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb)
 
 ---
 
@@ -46,7 +46,7 @@ From signal representations to neural audio generation.
 - Autoregressive models: WaveNet, Jukebox, AudioLM
 - Diffusion for audio: Stable Audio
 
-**Materials:** [Slides](02-foundational-audio/slides.pdf) · [Lab notebook](02-foundational-audio/lab.ipynb)
+**Materials:** [Slides](02-foundational-audio/slides.pdf) · [Lab notebook](02-foundational-audio/Lab_foundational_audio.ipynb)
 
 ---
 
@@ -83,7 +83,7 @@ Grounding large generative models with external knowledge.
 - Grounding strategies: prompt patterns, multimodal RAG
 - Hands-on lab
 
-**Materials:** [Slides](04-retrieval-augmented-generation/slides.pdf) · [Lab notebook](04-retrieval-augmented-generation/lab.ipynb)
+**Materials:** [Slides](04-retrieval-augmented-generation/slides.pdf) · [Lab notebook](04-retrieval-augmented-generation/lab_RAG.ipynb)
 
 #### Topic 4 Reading List
 
@@ -109,7 +109,7 @@ Building and evaluating AI systems that reason, plan, and use tools.
 - Safety evaluation with NVIDIA Garak
 - Multi-agent coordination patterns
 
-**Materials:** [Lab notebook](05-agentic-ai/lab.ipynb)
+**Materials:** [Lab notebook](05-agentic-ai/lab_agentic_AI_MCP_LangGraph.ipynb)
 
 ---
 
@@ -119,7 +119,8 @@ Building and evaluating AI systems that reason, plan, and use tools.
 .
 ├── 01-foundational-vision/          # Foundational Vision Models
 │   ├── slides.pdf
-│   └── lab.ipynb
+│   └── lab_01-foundational-vision/lab_Foundational_vision_part_I.ipynb
+│   └── lab_01-foundational-vision/lab_Foundational_vision_part_II.ipynb
 ├── 02-foundational-audio/          # Foundational Audio Models
 │   ├── slides.pdf
 │   └── lab.ipynb
@@ -127,9 +128,9 @@ Building and evaluating AI systems that reason, plan, and use tools.
 │   └── slides.pdf
 ├── 04-retrieval-augmented-generation/          # Retrieval-Augmented Generation
 │   ├── slides.pdf
-│   └── lab.ipynb
+│   └── lab_RAG.ipynb
 └── 05-agentic-ai/          # Agentic AI & Tool-Using Systems
-    └── lab.ipynb
+    └── lab_agentic_AI_MCP_LangGraph.ipynb
 ```
 
 ---
