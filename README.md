@@ -6,6 +6,8 @@
 
 This repository contains course materials for a graduate-level course on multimodal generative AI. The course covers foundational vision and audio models, multimodal alignment, retrieval-augmented generation, and agentic AI systems — combining lectures, hands-on labs, and seminar paper discussions.
 
+Note: Prof. Wenxuan teaches the NLP part of this course, that part is not included in this repo. 
+
 ---
 
 ## Course Overview
