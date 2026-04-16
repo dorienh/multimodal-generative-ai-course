@@ -12,11 +12,11 @@ This repository contains course materials for a graduate-level course on multimo
 
 | # | Topic | Slides | iPython Notebook | Papers |
 |---|-------|--------|----------|--------|
-| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) | [Notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb) | — |
-| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) | [Notebook](02-foundational-audio/lab_foundational_audio.ipynb) | — |
-| 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf) | — | [5 papers](#topic-3-reading-list) |
-| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) | [Notebook](04-retrieval-augmented-generation/lab_RAG.ipynb) | [5 papers](#topic-4-reading-list) |
-| 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [Notebook](05-agentic-ai/lab_agentic_AI_MCP_LangGraph.ipynb) | — |
+| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10cVmXCVKmWn1OFgwqJnz2l6ZZkEMCODO) part 1 · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10_xZUvAlMaUltccCfrE-XCEcJPG3mkGe) part 2 | — |
+| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1whh2du8Br5X0DNiUwmV03VBNFbUJnxuH) | — |
+| 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf) | — | [5 papers](#topic-3-reading-list) |
+| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I0ZIL6JTdMihfhjwaHqWKMuBua_px3pN) | [5 papers](#topic-4-reading-list) |
+| 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VON_Hv16y3lcy-sLy733GQ6hKTfBb6xw) | — |
 
 ---
 
@@ -32,9 +32,7 @@ From convolutional networks to modern vision transformers and generative models.
 - Generative models for vision: DALL·E, Stable Diffusion
 - Diffusion models: core concepts and training
 
-**Materials:** [Slides](01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) · [Lab notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb)
-
-<iframe src="https://gamma.app/embed/n2y73wny11mzx4w" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Foundational Vision Models"></iframe>
+**Materials:** [Slides PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) · [Slides (interactive)](https://gamma.app/docs/Foundational-Vision-Models-n2y73wny11mzx4w) · Lab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10cVmXCVKmWn1OFgwqJnz2l6ZZkEMCODO) part 1 · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10_xZUvAlMaUltccCfrE-XCEcJPG3mkGe) part 2
 
 ---
 
@@ -48,9 +46,7 @@ From signal representations to neural audio generation.
 - Autoregressive models: WaveNet, Jukebox, AudioLM
 - Diffusion for audio: Stable Audio
 
-**Materials:** [Slides](02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) · [Lab notebook](02-foundational-audio/Lab_foundational_audio.ipynb)
-
-<iframe src="https://gamma.app/embed/010yv5v09ynk2k5" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Foundational Generative Audio Models"></iframe>
+**Materials:** [Slides PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) · [Slides (interactive)](https://gamma.app/docs/Foundational-Generative-Audio-Models-010yv5v09ynk2k5) · Lab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1whh2du8Br5X0DNiUwmV03VBNFbUJnxuH)
 
 ---
 
@@ -63,9 +59,7 @@ Connecting modalities through shared representations and cross-modal learning.
 - Architectures for merging modalities
 - Seminar: discussion of 5 foundational papers
 
-**Materials:** [Slides](03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf)
-
-<iframe src="https://gamma.app/embed/535epu986nuq07z" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Multimodal Alignment I"></iframe>
+**Materials:** [Slides PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf) · [Slides (interactive)](https://gamma.app/docs/Multimodal-Alignment-535epu986nuq07z)
 
 #### Topic 3 Reading List
 
@@ -89,9 +83,7 @@ Grounding large generative models with external knowledge.
 - Grounding strategies: prompt patterns, multimodal RAG
 - Hands-on lab
 
-**Materials:** [Slides](04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) · [Lab notebook](04-retrieval-augmented-generation/lab_RAG.ipynb)
-
-<iframe src="https://gamma.app/embed/jwy6khm9f7wpnub" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Grounding & RAG Systems"></iframe>
+**Materials:** [Slides PDF](https://github.com/dorienh/multimodal-generative-ai/raw/main/04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) · [Slides (interactive)](https://gamma.app/docs/Grounding-and-RAG-Systems-jwy6khm9f7wpnub) · Lab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I0ZIL6JTdMihfhjwaHqWKMuBua_px3pN)
 
 #### Topic 4 Reading List
 
@@ -117,7 +109,7 @@ Building and evaluating AI systems that reason, plan, and use tools.
 - Safety evaluation with NVIDIA Garak
 - Multi-agent coordination patterns
 
-**Materials:** [Lab notebook](05-agentic-ai/lab_agentic_AI_MCP_LangGraph.ipynb)
+**Materials:** Lab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VON_Hv16y3lcy-sLy733GQ6hKTfBb6xw)
 
 ---
 
