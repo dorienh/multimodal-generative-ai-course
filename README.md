@@ -10,12 +10,12 @@ This repository contains course materials for a graduate-level course on multimo
 
 ## Course Overview
 
-| # | Topic | Slides | Notebook | Papers |
+| # | Topic | Slides | iPython Notebook | Papers |
 |---|-------|--------|----------|--------|
-| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/slides.pdf) | [Notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb) | — |
-| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/slides.pdf) | [Notebook](02-foundational-audio/Lab_foundational_audio.ipynb) | — |
-| 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](03-multimodal-alignment/slides.pdf) | — | [5 papers](#topic-3-reading-list) |
-| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/slides.pdf) | [Notebook](04-retrieval-augmented-generation/lab_RAG.ipynb) | [5 papers](#topic-4-reading-list) |
+| 1 | [Foundational Vision Models](#1-foundational-vision-models) | [PDF](01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) | [Notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb) | — |
+| 2 | [Foundational Audio Models](#2-foundational-audio-models) | [PDF](02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) | [Notebook](02-foundational-audio/lab_foundational_audio.ipynb) | — |
+| 3 | [Multimodal Models & Alignment](#3-multimodal-models--alignment) | [PDF](03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf) | — | [5 papers](#topic-3-reading-list) |
+| 4 | [Retrieval-Augmented Generation (RAG)](#4-retrieval-augmented-generation) | [PDF](04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) | [Notebook](04-retrieval-augmented-generation/lab_RAG.ipynb) | [5 papers](#topic-4-reading-list) |
 | 5 | [Agentic AI & Tool-Using Systems](#5-agentic-ai--tool-using-systems) | — | [Notebook](05-agentic-ai/lab_agentic_AI_MCP_LangGraph.ipynb) | — |
 
 ---
@@ -32,7 +32,9 @@ From convolutional networks to modern vision transformers and generative models.
 - Generative models for vision: DALL·E, Stable Diffusion
 - Diffusion models: core concepts and training
 
-**Materials:** [Slides](01-foundational-vision/slides.pdf) · [Lab notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb)
+**Materials:** [Slides](01-foundational-vision/Lecture-Foundational-Vision-Models.pdf) · [Lab notebook - part 1](01-foundational-vision/lab_Foundational_vision_part_I.ipynb) [& part 2](01-foundational-vision/lab_Foundational_vision_part_II.ipynb)
+
+<iframe src="https://gamma.app/embed/n2y73wny11mzx4w" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Foundational Vision Models"></iframe>
 
 ---
 
@@ -46,7 +48,9 @@ From signal representations to neural audio generation.
 - Autoregressive models: WaveNet, Jukebox, AudioLM
 - Diffusion for audio: Stable Audio
 
-**Materials:** [Slides](02-foundational-audio/slides.pdf) · [Lab notebook](02-foundational-audio/Lab_foundational_audio.ipynb)
+**Materials:** [Slides](02-foundational-audio/Lecture-Foundational-Generative-Audio-Models.pdf) · [Lab notebook](02-foundational-audio/Lab_foundational_audio.ipynb)
+
+<iframe src="https://gamma.app/embed/010yv5v09ynk2k5" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Foundational Generative Audio Models"></iframe>
 
 ---
 
@@ -59,7 +63,9 @@ Connecting modalities through shared representations and cross-modal learning.
 - Architectures for merging modalities
 - Seminar: discussion of 5 foundational papers
 
-**Materials:** [Slides](03-multimodal-alignment/slides.pdf)
+**Materials:** [Slides](03-multimodal-alignment/Lecture-Multimodal-Alignment.pdf)
+
+<iframe src="https://gamma.app/embed/535epu986nuq07z" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Multimodal Alignment I"></iframe>
 
 #### Topic 3 Reading List
 
@@ -83,7 +89,9 @@ Grounding large generative models with external knowledge.
 - Grounding strategies: prompt patterns, multimodal RAG
 - Hands-on lab
 
-**Materials:** [Slides](04-retrieval-augmented-generation/slides.pdf) · [Lab notebook](04-retrieval-augmented-generation/lab_RAG.ipynb)
+**Materials:** [Slides](04-retrieval-augmented-generation/Lecture-Grounding-and-RAG-Systems.pdf) · [Lab notebook](04-retrieval-augmented-generation/lab_RAG.ipynb)
+
+<iframe src="https://gamma.app/embed/jwy6khm9f7wpnub" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Grounding & RAG Systems"></iframe>
 
 #### Topic 4 Reading List
 
@@ -118,16 +126,16 @@ Building and evaluating AI systems that reason, plan, and use tools.
 ```
 .
 ├── 01-foundational-vision/          # Foundational Vision Models
-│   ├── slides.pdf
+│   ├── Lecture-Foundational-Vision-Models.pdf
 │   └── lab_01-foundational-vision/lab_Foundational_vision_part_I.ipynb
 │   └── lab_01-foundational-vision/lab_Foundational_vision_part_II.ipynb
 ├── 02-foundational-audio/          # Foundational Audio Models
-│   ├── slides.pdf
-│   └── lab.ipynb
+│   ├── Lecture-Foundational-Generative-Audio-Models.pdf
+│   └── lab_foundational_audio.ipynb
 ├── 03-multimodal-alignment/          # Multimodal Models & Alignment
-│   └── slides.pdf
+│   └── Lecture-Multimodal-Alignment.pdf
 ├── 04-retrieval-augmented-generation/          # Retrieval-Augmented Generation
-│   ├── slides.pdf
+│   ├── Lecture-Grounding-and-RAG-Systems.pdf
 │   └── lab_RAG.ipynb
 └── 05-agentic-ai/          # Agentic AI & Tool-Using Systems
     └── lab_agentic_AI_MCP_LangGraph.ipynb
